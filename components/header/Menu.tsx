@@ -2,12 +2,9 @@ import React, { useState } from 'react';
 import logo from 'mtn.svg'
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
-import MobMenu from './MobMenu';
 
 const Menu = () => {
     const {t, i18n} = useTranslation(['translation']);
-    const [isShown, setIsShown] = useState(false);
-    const [isShownSlide, setIsShownSlide] = useState(false);
 
     let dir = t('ltr')
     let data = [
@@ -32,22 +29,12 @@ const Menu = () => {
                     <div dir={dir} className="fw-bolsd d-none d-lg-flex align-self-center menuItems" key={index} style={{width: 'max-content!important'}}>
                             {item.name}
                             {item.haveSub &&
-                                <i onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} className="position-relative ps-1 bi fw-bolder col-1 align-self-center bi-chevron-down"style={{width: 'fit-content!important'}}>
-                                        {/* {isShown &&
-                                      <span className="position-absolute bottom-0 start-100 p-2">
-                                        test
-                                        <span className="visually-hidden"></span>
-                                    </span>
-                                        } */}
-                                </i>
+                                <i className="position-relative ps-1 bi fw-bolder col-1 align-self-center bi-chevron-down"style={{width: 'fit-content!important'}}></i>
                             }
-                            {/* <div>test</div> */}
                         </div>
                 ))}
-            <i className="col-9 d-lg-none align-self-center fs-1 bi bi-list" onClick={()=>setIsShownSlide(!isShownSlide)}></i>
-            {/* {isShownSlide &&
-                <MobMenu/>
-            } */}
+            <i className="col-9 d-lg-none align-self-center fs-1 bi bi-list"></i>
+            
         </div>
         </>
     );
