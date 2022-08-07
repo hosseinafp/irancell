@@ -3,8 +3,9 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: vazir,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: Vazirmatn,vazir,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    font-family:Vazirmatn !important;
 }
 
 :root{
@@ -24,6 +25,9 @@ a {
 .header{
   background-color:var(--black);
 }
+.gray {
+  color: var(--gray);
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -33,13 +37,30 @@ a {
   color: var(--black);
   background-color:var(--yellow);
 }
+.menu2{
+  color: var(--black);
+  background-color:var(--yellow);
+}
 @media (min-width: 991px){
   .menu{
     border-radius: 45px 0 0 45px;
-  } 
+  }
+  .menu2{
+    border-radius: 0 45px 45px 0 ;
+  }
 }
-.menuItems{
-  font-size: 12px;
+@media (min-width: 991px){
+  .menuItems{
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 1188px){
+  .menuItems{
+    font-size: 13px;
+    font-weight: 800;
+  }
 }
 .finalyItems{
   font-size: 13px;

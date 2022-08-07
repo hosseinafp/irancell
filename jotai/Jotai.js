@@ -12,10 +12,11 @@ export const finaly = atom([
 export const nums = atom({
     number:'---',
     email:'---',
-    price:'۱۰,۰۰۰ریال',
+    price:50000,
 });
 export const simType = atom('اعتباری');
 export const checkedSharje = atom(0);
 export const amazingSharje = atom(0);
+
 export const sharjeType = atom('عادی');
 

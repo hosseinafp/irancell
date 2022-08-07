@@ -18,9 +18,9 @@ const Input = ({name,type}:Props) => {
     return (
         <div className="row justify-content-center mt-4">
             <div className="col-8 py-0 form-floating mb-3" dir='rtl'>
-                <input type="email" className="finaly form-control my-0 form-control-sm rounded-pill" name={type} onChange={(e)=>changeHandler(e)} 
+                <input type="email" className="finaly form-control my-0 shadow-none form-control-sm rounded-pill" name={type} onChange={(e)=>changeHandler(e)} 
                 // value={data.value}
-                style={{height: 'calc(2.6rem + 2px)'}}
+                style={{height: 'calc(2.6rem + 4px)'}}
                  id="floatingInput" placeholder="name@example.com"/>
                 <label htmlFor="floatingInput" style={{top: '-8px',transformOrigin: 'top right'}} className="my-0 pe-4 text-muted">{name}</label>
             </div>

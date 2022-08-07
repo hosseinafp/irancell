@@ -1,0 +1,38 @@
+export default {
+    fa_IR: {
+        translation:{
+            'select bank and pay': 'انتخاب بانک و پرداخت',
+            'email(optional)':'ایمیل(اختیاری)',
+            'phone number':'شماره تلفن همراه',
+            'irancell E-charje':'خرید آنلاین شارژ ایرانسل',
+            'simCard type':'نوع سیم‌کارت',
+            'permanent':'دائمی',
+            'credit':'اعتباری',
+            'amazing sharje':'شارژ شگفت انگیز',
+            'sharje price':'مبلغ شارژ',
+            'Final invoice':'فاکتور نهایی',
+            'phone Number':'مستقیم به شماره',
+            'IRR':'ریال',
+            'Cashback Reward ':'پاداش خرید',
+            'bank name':'نام بانک',
+            'sharje Type':'نوع شارژ',
+            'Business':'مشترکین سازمانی',
+            'FA':'EN',
+            'normal':'عادی',
+            'ltr':'rtl',
+            'shop':'فروشگاه',
+            'Products and Services':'محصولات و خدمات',
+            'Festivals':'جشنواره',
+            'Customer Support':'پشتیبانی',
+            'Blog':'وبلاگ',
+            'News':'اخبار',
+            'Join Us':'همکاری با ما',
+            ' ':'ترابرد به ایرانسل',
+            'price':'مبلغ',
+            'other':'سایر مبالغ',
+            'Charge amount (Including VAT)':'مبلغ شارژ (با احتساب مالیات بر ارزش افزوده)',
+            'An additional 1% of the amount that you pay (excl. VAT) will be deposited in your Jibjet account as a free cashback reward. Your Jibjet can be accessed through the MyIrancell Superapp.':' با پرداخت از درگاه بانکی، معادل ۱ درصد از مبلغ خریدتان (بدون احتساب مالیات بر ارزش افزوده) به عنوان پاداش نقدی خرید به حساب جیب جت شما اضافه خواهد شد.شما می‌توانید از طریق سوپر اپلیکیشن ایرانسل من به حساب جیب جت خود دسترسی داشته باشید.',
+        }
+     
+    },
+  };
